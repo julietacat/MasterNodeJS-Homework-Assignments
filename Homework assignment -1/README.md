@@ -9,3 +9,4 @@ Please create a simple "Hello World" API. Meaning:
 2. When someone posts anything to the route /hello, you should return a welcome message, in JSON format. This message can be anything you want. 
 
 ***
+Author: Julia Kraeva
