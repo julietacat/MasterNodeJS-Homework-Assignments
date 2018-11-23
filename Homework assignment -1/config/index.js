@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 // Container for all the environments
 var environments = {};
 
