@@ -77,7 +77,14 @@ Response
 ##### GET
 
 ``` http://localhost:3000/tokens?id=vooaa92zbkgrrjb08824 ```
-
+Response
+```
+{
+    "name": "Julia",
+    "id": "vooaa92zbkgrrjb08824",
+    "expires": 1545119717274
+}
+```
 
 ##### PUT
 
