@@ -7,10 +7,10 @@ Author: Julia Kraeva
 
 #### Modify lib/config.js to 
 
-* 'stripe_api_key': _'your api key'_,
-* 'mailgun_api_key': _'your api key'_,
-* 'mailgun_domain': _'your domain'_,
-* 'validete_Email_recipient': _'recipient email'_
+* 'stripe_api_key': _your api key_,
+* 'mailgun_api_key': _your api key_,
+* 'mailgun_domain': _your domain_,
+* 'validete_Email_recipient': _recipient email_
 ***
 
 
