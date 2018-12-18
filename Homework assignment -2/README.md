@@ -19,10 +19,10 @@ Author: Julia Kraeva
 ##### POST
 ```
 {
-        "name": " ",
-        "email": " ",
-        "password": " ",
-        "address": " ",
+        "name": "test",
+        "email": "test@gmail.com",
+        "password": "testpassword",
+        "address": "Moscow",
         "currency": "eur/usd",
         "creditCard": "visa/mastercard/amex"
 }
@@ -36,8 +36,14 @@ Author: Julia Kraeva
 
 
 ##### PUT
-```
 
+* token - must be included in request's header.
+```
+{
+    "name": "test",
+    "email": "test@gmail.com",
+    "address": "Moscow2"
+}
 ```
 
 ##### DELETE
