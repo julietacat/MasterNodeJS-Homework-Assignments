@@ -110,18 +110,14 @@ Response
 ### ORDERS => POST, GET, PUT, DELETE
 ##### POST
 ```
-{
-        "password": "testpassword",
+{   
         "name": "test",
-        "email": "test@gmail.com"
-}
-```
-Response
-```
-{
-    "name": "test",
-    "id": "vooaa92zbkgrrjb08824",
-    "expires": 1545119717274
+        "email": "test@gmail.com",
+        "password": "testpassword",
+        "Appetizers": "Greek salad",
+        "First_courses": "Borsch",
+        "main_courses": "Boiled chicken breast",
+        "Garnishes": "French fries"
 }
 ```
 
