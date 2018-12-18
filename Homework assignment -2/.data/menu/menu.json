@@ -1,1 +1,17 @@
-
+{
+    "starters": {
+        "salad": 12.99,
+        "chicken wings": 9.99,
+        "thuna": 17.99
+    },
+    "main": {
+        "spaghetti":12.99,
+        "colombo": 19.99,
+        "salmon": 17.99
+    }, 
+    "desserts": {
+        "ice cream": 4.99,
+        "cheescake": 6.99,
+        "apple pie": 6.99
+    }
+}
