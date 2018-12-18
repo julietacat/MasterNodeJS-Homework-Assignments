@@ -11,6 +11,8 @@ Author: Julia Kraeva
 * 'mailgun_api_key': _your api key_,
 * 'mailgun_domain': _your domain_,
 * 'validete_Email_recipient': _recipient email_
+
+**Please put your data**
 ***
 
 
