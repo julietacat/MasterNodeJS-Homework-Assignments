@@ -29,9 +29,11 @@ Author: Julia Kraeva
 ```
 
 ##### GET
-```
 
-```
+* token - must be included in request's header.
+
+* http://localhost:3000/users?name=test&email=test@gmail.com
+
 
 ##### PUT
 ```
