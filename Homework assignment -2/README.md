@@ -109,6 +109,7 @@ Response
 ***
 ### ORDERS => POST, GET, PUT, DELETE
 ##### POST
+* token - must be included in request's header.
 ```
 {   
         "name": "test",
@@ -122,7 +123,7 @@ Response
 ```
 
 ##### GET
-
+* token - must be included in request's header.
 * ``` http://localhost:3000/orders?id=wg28ns4wea8xpkcid5ot ```
 
 Response
@@ -144,16 +145,15 @@ Response
 ```
 
 ##### PUT
-
+* token - must be included in request's header.
 ```
 {
-    "id": "vooaa92zbkgrrjb08824",
-    "extend": true
+  
 }
 ```
 
 ##### DELETE
-
-* ``` http://localhost:3000/tokens?id=vooaa92zbkgrrjb08824 ```
+* token - must be included in request's header.
+* ``` id=http://localhost:3000/orders?id=wg28ns4wea8xpkcid5ot ```
 
 ***
