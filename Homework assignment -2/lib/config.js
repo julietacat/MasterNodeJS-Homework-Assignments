@@ -12,12 +12,12 @@ environments.staging = {
   'httpsPort' : 3001,
   'envName' : 'staging',
   'hashingSecret' : 'thisIsASecret',
-  'stripe_api_key': 'YOUR API KEY',
-  'mailgun_api_key': 'YOUR API KEY',
-  'mailgun_domain': 'YOUR DOMAIN',
+  'stripe_api_key': 'your api key',
+  'mailgun_api_key': 'your api key',
+  'mailgun_domain': 'your domain',
   'acceptedCurrencies': ['eur', 'usd'],
   'acceptedCreditCards': ['amex','mastercard','visa'],
-  'validete_Email_recipient':'RECIPIENT EMAI'
+  'validete_Email_recipient':'recipient email'
 };
 
 // Production environment
@@ -26,12 +26,12 @@ environments.production = {
   'httpsPort' : 5001,
   'envName' : 'production',
   'hashingSecret' : 'thisIsASecret',
-  'stripe_api_key': 'YOUR API KEY',
-  'mailgun_api_key': 'YOUR API KEY',
-  'mailgun_domain': 'YOUR DOMAIN',
+  'stripe_api_key': 'your api key',
+  'mailgun_api_key': 'your api key',
+  'mailgun_domain': 'your domain',
   'acceptedCurrencies': ['eur', 'usd'],
   'acceptedCreditCards': ['amex','mastercard','visa'],
-  'validete_Email_recipient':'RECIPIENT EMAI'
+  'validete_Email_recipient':'recipient email'
 };
 
 // Determine which environment was passed as a command-line argument
