@@ -77,6 +77,7 @@ Response
 ##### GET
 
 ``` http://localhost:3000/tokens?id=vooaa92zbkgrrjb08824 ```
+
 Response
 ```
 {
