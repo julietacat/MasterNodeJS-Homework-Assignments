@@ -104,10 +104,4 @@ Response
 ### MENU => GET
 * token - must be included in request's header.
 * ``` http://localhost:3000/menu?name=test&email=test@gmail.com  ```
-
-```
-{
-        "password": "testpassword",
-}
-```
 ***
