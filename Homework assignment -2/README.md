@@ -89,7 +89,6 @@ Response
 
 ##### PUT
 
-* token - must be included in request's header.
 ```
 {
     "id": "vooaa92zbkgrrjb08824",
