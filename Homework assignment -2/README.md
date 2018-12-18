@@ -18,7 +18,14 @@ Author: Julia Kraeva
 
 ##### POST
 ```
-
+{
+        "name": " ",
+        "email": " ",
+        "password": " ",
+        "address": " ",
+        "currency": "eur/usd",
+        "creditCard": "visa/mastercard/amex"
+}
 ```
 
 ##### GET
