@@ -105,3 +105,48 @@ Response
 * token - must be included in request's header.
 * ``` http://localhost:3000/menu?name=test&email=test@gmail.com  ```
 ***
+### ORDERS => POST, GET, PUT, DELETE
+##### POST
+```
+{
+        "password": "testpassword",
+        "name": "test",
+        "email": "test@gmail.com"
+}
+```
+Response
+```
+{
+    "name": "test",
+    "id": "vooaa92zbkgrrjb08824",
+    "expires": 1545119717274
+}
+```
+
+##### GET
+
+* ``` http://localhost:3000/tokens?id=vooaa92zbkgrrjb08824 ```
+
+Response
+```
+{
+    "name": "test",
+    "id": "vooaa92zbkgrrjb08824",
+    "expires": 1545119717274
+}
+```
+
+##### PUT
+
+```
+{
+    "id": "vooaa92zbkgrrjb08824",
+    "extend": true
+}
+```
+
+##### DELETE
+
+* ``` http://localhost:3000/tokens?id=vooaa92zbkgrrjb08824 ```
+
+***
