@@ -123,7 +123,7 @@ Response
 
 ##### GET
 
-* ``` http://localhost:3000/tokens?id=vooaa92zbkgrrjb08824 ```
+* ``` http://localhost:3000/orders?id=rx3ql3drxoqjgyzpk3zx ```
 
 Response
 ```
