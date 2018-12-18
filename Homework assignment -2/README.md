@@ -50,7 +50,7 @@ Author: Julia Kraeva
 
 * token - must be included in request's header.
 
-``` http://localhost:3000/users?name=test&email=test@gmail.com ```
+* ``` http://localhost:3000/users?name=test&email=test@gmail.com ```
 
 ***
 
@@ -76,7 +76,7 @@ Response
 
 ##### GET
 
-``` http://localhost:3000/tokens?id=vooaa92zbkgrrjb08824 ```
+* ``` http://localhost:3000/tokens?id=vooaa92zbkgrrjb08824 ```
 
 Response
 ```
