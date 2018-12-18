@@ -123,14 +123,23 @@ Response
 
 ##### GET
 
-* ``` http://localhost:3000/orders?id=rx3ql3drxoqjgyzpk3zx ```
+* ``` http://localhost:3000/orders?id=wg28ns4wea8xpkcid5ot ```
 
 Response
 ```
 {
+    "id": "wg28ns4wea8xpkcid5ot",
     "name": "test",
-    "id": "vooaa92zbkgrrjb08824",
-    "expires": 1545119717274
+    "email": "test@gmail.com",
+    "address": "Moscow2",
+    "order_summary": {
+        "Greek salad": 12,
+        "Borsch": 14,
+        "Boiled chicken breast": 15,
+        "French fries": 5
+    },
+    "total": 46,
+    "has_payed": false
 }
 ```
 
