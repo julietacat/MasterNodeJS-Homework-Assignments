@@ -147,9 +147,13 @@ Response
 ##### PUT
 * token - must be included in request's header.
 ```
-{
-  
-}
+{   
+        "id": "wg28ns4wea8xpkcid5ot",
+        "Appetizers": "Russian salad",
+        "First_courses": "Chicken soup",
+        "main_courses": "Marbled beefsteak",
+        "Garnishes": "Potatoes in a rural"
+} 
 ```
 
 ##### DELETE
