@@ -60,12 +60,17 @@ Author: Julia Kraeva
 ##### POST
 ```
 {
-        "name": "test",
-        "email": "test@gmail.com",
         "password": "testpassword",
-        "address": "Moscow",
-        "currency": "eur/usd",
-        "creditCard": "visa/mastercard/amex"
+        "name": "test",
+        "email": "test@gmail.com"
+}
+```
+Response
+```
+{
+    "name": "test",
+    "id": "vooaa92zbkgrrjb08824",
+    "expires": 1545119717274
 }
 ```
 
