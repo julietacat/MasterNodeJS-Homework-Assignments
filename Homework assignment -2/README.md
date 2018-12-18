@@ -81,7 +81,7 @@ Response
 Response
 ```
 {
-    "name": "Julia",
+    "name": "test",
     "id": "vooaa92zbkgrrjb08824",
     "expires": 1545119717274
 }
@@ -92,9 +92,8 @@ Response
 * token - must be included in request's header.
 ```
 {
-    "name": "test",
-    "email": "test@gmail.com",
-    "address": "Moscow2"
+    "id": "vooaa92zbkgrrjb08824",
+    "extend": true
 }
 ```
 
