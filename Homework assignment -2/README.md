@@ -12,3 +12,27 @@ Author: Julia Kraeva
 * 'mailgun_domain': 'your domain',
 * 'validete_Email_recipient': 'recipient email'
 ***
+
+
+#### USERS => POST, GET, PUT, DELETE
+
+##### POST
+```
+
+```
+
+##### GET
+```
+
+```
+
+##### PUT
+```
+
+```
+
+##### DELETE
+```
+
+```
+
