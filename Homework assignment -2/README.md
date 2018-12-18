@@ -25,7 +25,7 @@ How to Turn It In:
 ***
 
 
-#### USERS => POST, GET, PUT, DELETE
+#### USERS (POST, GET, PUT, DELETE)
 
 ##### POST
 ```
@@ -66,7 +66,7 @@ How to Turn It In:
 ***
 
 
-### TOKENS => POST, GET, PUT, DELETE
+### TOKENS (POST, GET, PUT, DELETE)
 
 ##### POST
 ```
@@ -112,11 +112,11 @@ Response
 * ``` http://localhost:3000/tokens?id=vooaa92zbkgrrjb08824 ```
 
 ***
-### MENU => GET
+### MENU  (GET)
 * token - must be included in request's header.
 * ``` http://localhost:3000/menu?name=test&email=test@gmail.com  ```
 ***
-### ORDERS => POST, GET, PUT, DELETE
+### ORDERS (POST, GET, PUT, DELETE)
 ##### POST
 * token - must be included in request's header.
 ```
