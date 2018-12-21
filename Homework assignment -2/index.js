@@ -19,7 +19,7 @@ var app = {}
 app.init = () => {
     // Server init
     server.init();
-    // TODO: Workers init
+   
 };
 
 app.init();
