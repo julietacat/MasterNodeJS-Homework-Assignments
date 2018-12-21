@@ -12,12 +12,12 @@ environments.staging = {
   'httpsPort' : 3001,
   'envName' : 'staging',
   'hashingSecret' : 'thisIsASecret',
-  'stripe_api_key': 'sk_test_A2CXRoHO45C73jCj5WeetNmB',
-  'mailgun_api_key': '18cb80e62307f5ece99276518fe96ea6-9b463597-11835ab7',
-  'mailgun_domain': 'sandbox7f7c4a5dff944854baff945c2864d99a.mailgun.org',
+  'stripe_api_key': ,
+  'mailgun_api_key': ,
+  'mailgun_domain': ,
   'acceptedCurrencies': ['eur', 'usd'],
   'acceptedCreditCards': ['amex','mastercard','visa'],
-  'validete_Email_recipient':'julietacat@gmail.com'
+  'validete_Email_recipient':
 };
 
 // Production environment
@@ -26,12 +26,12 @@ environments.production = {
   'httpsPort' : 5001,
   'envName' : 'production',
   'hashingSecret' : 'thisIsASecret',
-  'stripe_api_key': 'sk_test_A2CXRoHO45C73jCj5WeetNmB',
-  'mailgun_api_key': '18cb80e62307f5ece99276518fe96ea6-9b463597-11835ab7',
-  'mailgun_domain': 'sandbox7f7c4a5dff944854baff945c2864d99a.mailgun.org',
+  'stripe_api_key': ,
+  'mailgun_api_key': ,
+  'mailgun_domain': ,
   'acceptedCurrencies': ['eur', 'usd'],
   'acceptedCreditCards': ['amex','mastercard','visa'],
-  'validete_Email_recipient':'julietacat@gmail.com'
+  'validete_Email_recipient':
 };
 
 // Determine which environment was passed as a command-line argument
