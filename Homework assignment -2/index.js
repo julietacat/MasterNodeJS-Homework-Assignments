@@ -15,7 +15,7 @@ var app = {}
 
 // Functions
 
-// Init functions -> Start Server and Workers
+// Init functions  Start Server 
 app.init = () => {
     // Server init
     server.init();
