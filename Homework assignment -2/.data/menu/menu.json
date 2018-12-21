@@ -1,17 +1,33 @@
 {
-    "starters": {
-        "salad": 12.99,
-        "chicken wings": 9.99,
-        "thuna": 17.99
-    },
-    "main": {
-        "spaghetti":12.99,
-        "colombo": 19.99,
-        "salmon": 17.99
-    }, 
-    "desserts": {
-        "ice cream": 4.99,
-        "cheescake": 6.99,
-        "apple pie": 6.99
-    }
+	"Appetizers" : 
+		{
+			"Greek salad" : 12.00,
+			"Caesar salad" : 14.00,
+			"Red salad" : 6.00,
+			"Russian salad" : 16.00
+		}
+	,
+	"First_courses" : 
+		{
+			"Pea soup" : 12.00,
+			"Borsch" : 14.00,
+			"Chicken soup" : 12.00,
+			"Lenten soup" : 10.00
+		}
+	,
+	"main_courses" : 
+		{
+			"Marbled beefsteak" : 30.00,
+			"Cheeseburger" : 20.00,
+			"Salmon steak" : 25.00,
+			"Boiled chicken breast" : 15.00
+		}
+	,
+	"Garnishes" : 
+		{
+			"French fries" : 5.00,
+			"Potatoes in a rural" : 6.00,
+			"Rice on Thai" : 5.00
+		}
+	
 }
