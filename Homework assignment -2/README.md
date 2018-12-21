@@ -167,7 +167,7 @@ Response
 
 ##### DELETE
 * token - must be included in request's header.
-* ``` id=http://localhost:3000/orders?id=wg28ns4wea8xpkcid5ot ```
+* ``` http://localhost:3000/orders?id=wg28ns4wea8xpkcid5ot ```
 
 ***
 
