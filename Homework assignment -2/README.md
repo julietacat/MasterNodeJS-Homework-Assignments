@@ -16,10 +16,10 @@ How to Turn It In:
 
 #### Modify lib/config.js to 
 
-* 'stripe_api_key': _your api key_,
-* 'mailgun_api_key': _your api key_,
-* 'mailgun_domain': _your domain_,
-* 'validete_Email_recipient': _recipient email_
+* ```'stripe_api_key': _your api key_,```
+* ```'mailgun_api_key': _your api key_,```
+* ```'mailgun_domain': _your domain_,```
+* ```'validete_Email_recipient': _recipient email_```
 
 **Please put your data**
 ***
@@ -171,4 +171,13 @@ Response
 
 ***
 
+#### CHECKOUT (POST)
+* token - must be included in request's header.
+```
+{
+        "orderID": "1234567890",
+        "name": "test"
+}
+```
+***
 _Author: Julia Kraeva_
