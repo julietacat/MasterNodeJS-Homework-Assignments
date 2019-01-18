@@ -1,6 +1,7 @@
 /*
- * Library for storing and editing data
- *
+
+ Library for storing and editing data
+ 
  */
 
 // Dependencies
