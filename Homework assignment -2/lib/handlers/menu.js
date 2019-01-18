@@ -33,7 +33,6 @@ menu.get = (data, callback) => {
             if (tokenIsValid) {
                 _data.read('users', name, (err, userData) => {
                     if (!err && userData) {
-                        // TODO: Get the menu
                         _data.read('menu','menu', (err, menuData) => {
                             if (!err) {
                                 callback(200, menuData);
