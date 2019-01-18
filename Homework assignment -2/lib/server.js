@@ -1,7 +1,7 @@
 /*
-*
-* Server tasks
-*
+
+Server tasks
+
 */
 
 
@@ -123,7 +123,7 @@ server.router = {
     'checkout': handlers.checkout
 }
 
-// => INIT functions to listen to the servers
+//functions to listen to the servers
 server.init = () => {
     // Start the http server
     server.httpServer.listen(config.httpPort, () => {
