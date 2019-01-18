@@ -1,7 +1,7 @@
 /*
-*
-* Helpers Functions
-*
+
+Helpers Functions
+
 */
 
 
@@ -16,7 +16,7 @@ var StringDecoder = require('string_decoder').StringDecoder;
 // Container
 var helpers = {};
 
-// FUnctons
+// Functons
 helpers.parseJSONToObject = (str) => {
     try {
         var obj = JSON.parse(str);
