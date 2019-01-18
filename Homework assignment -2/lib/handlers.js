@@ -55,7 +55,7 @@ handlers.menu = (data, callback) => {
 
 // Orders
 handlers.orders = (data, callback) => {
-  var acceptableMethods = ['get','post','put','delete'];
+  var acceptableMethods = ['post','get','put','delete'];
   if (acceptableMethods.indexOf(data.method) > -1) {
     _orders[data.method](data, callback);
   } else {
