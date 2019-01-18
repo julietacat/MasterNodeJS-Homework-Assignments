@@ -1,7 +1,7 @@
 /*
-*
-* Handlers
-*
+
+Handlers
+
 */
 
 // Dependencies
@@ -17,13 +17,13 @@ var handlers = {};
 
 // Handlers
 
-// ==> NOT FOUND
+// NOT FOUND
 handlers.notFound = (data, callback) => {
   callback(404, { data });
 };
 
 
-// ==> USERS
+// Users
 handlers.users = (data, callback) => {
   var acceptableMethods = ['post', 'get', 'put', 'delete'];
   if (acceptableMethods.indexOf(data.method) > -1) {
@@ -43,6 +43,7 @@ handlers.tokens = (data, callback) => {
   }
 };
 
+// Menu
 handlers.menu = (data, callback) => {
   var acceptableMethods = ['get'];
   if (acceptableMethods.indexOf(data.method) > -1) {
@@ -52,6 +53,7 @@ handlers.menu = (data, callback) => {
   }  
 };
 
+// Orders
 handlers.orders = (data, callback) => {
   var acceptableMethods = ['get','post','put','delete'];
   if (acceptableMethods.indexOf(data.method) > -1) {
@@ -61,6 +63,7 @@ handlers.orders = (data, callback) => {
   }
 };
 
+// Checkout
 handlers.checkout = (data, callback) => {
   var acceptableMethods = ['post','get','put','delete'];
   if (acceptableMethods.indexOf(data.method) > -1 ) {
