@@ -1,6 +1,6 @@
 /*
 *
-* MENU METHODS accept get method
+* MENU (GET)
 *
 */
 
