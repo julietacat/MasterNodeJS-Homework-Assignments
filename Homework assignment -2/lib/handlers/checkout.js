@@ -1,7 +1,7 @@
 /*
-*
-* CHECHOUT ROUTE => post get put delete
-*
+
+CHECHOUT (POST)
+
 */
 
 // Dependencies
